@@ -1,7 +1,13 @@
 {
-  "name": "aws-node-simple-http-endpoint",
+  "name": "serverless-16",
   "version": "1.0.0",
   "description": "Example demonstrates how to setup a simple HTTP GET endpoint",
-  "author": "",
+  "engines": {
+    "node": ">=16.14.0"
+  },
+  "devDependencies": {
+    "serverless": "^3.17.0"
+  },
+  "author": "The serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
   "license": "MIT"
 }
