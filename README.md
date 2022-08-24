@@ -66,6 +66,12 @@ functions:
   serverless-simple-http-endpoint-dev-currentTime: arn:aws:lambda:us-east-1:488110005556:function:serverless-simple-http-endpoint-dev-currentTime
 ```
 
+To remove it do the opposite. If these don't work replace `serverless` with `npx sls`.
+
+```bash
+serverless remove
+```
+
 ## Usage
 
 You can now invoke the Lambda directly and even see the resulting log via
